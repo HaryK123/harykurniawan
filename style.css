@@ -1,0 +1,357 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* -------------------------------- HEADER -------------------------------- */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px; 
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  background-color: #fff;
+
+}
+
+header .logo img {
+  height: 50px;
+  margin-right: 0px;
+  border-radius: 50%;
+  
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+    background-color: #fff;
+}
+
+nav{
+    margin-right: 200px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #fff;
+}
+
+header nav ul li {
+  margin-left: 10px;
+  margin-right: 40px;
+  background-color: #fff;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------- ARTICLE -------------------------------- */
+
+article {
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .image-container img{
+    width: 290px;
+    margin-top: 55px;
+    margin-left: 120px;
+    border-radius: 40px 0 40px 0;
+  }
+  
+  .zoom-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.05);
+  }
+
+  .sosmed i{
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+    color: #444444;
+
+  }
+  .sosmed i:hover {
+    transform: translateY(-10px);
+  }
+
+  .btn_beranda{
+    width: 90px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .sosmed{
+    font-size: 28px;
+    margin-top: 50px;
+  }
+
+  .foto_1{
+    margin-bottom: 65px;
+    margin-right: 8px;
+  }
+
+
+
+    /* ---------------------- BAG.1 ---------------------- */
+
+    .bagian1{
+        width: 600px;
+      }
+
+    .bagian1 h1{
+        font-size: 50px;
+    }
+    
+    /* ---------------------- BAG.2 ---------------------- */
+    /* ---------------------- BAG.3 ---------------------- */
+    .bagian3{
+        width: 450px;
+      }
+      .bagian3 img{
+        width: 280px;
+        margin-top: 60px;
+        margin-left: 100px;
+    
+      }
+    /* ---------------------- BAG.4 ---------------------- */
+    .bagian4{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        width: 550px;
+        text-align: justify;
+      }
+    
+    /* ---------------------- BAG.5 ---------------------- */
+    .bagian5{
+        width: 550px;
+        margin-top: 140px;
+      }
+    /* ---------------------- BAG.6 ---------------------- */
+    .bagian6 img{
+        margin-top: 75px;
+        justify-content: center;
+      }
+    /* ---------------------- BAG.7 ---------------------- */
+    .bagian7{
+        text-align: center;
+        margin-top: 95px;
+      }
+
+      .skill_bar {
+        width: 540px;
+        margin: 0 auto;
+        padding: 20px;
+      margin-right: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(70, 70, 70, 0.341);
+      
+      }
+
+      .skill_progress {
+        width: 400px;
+        height: 200px;
+        background-color: #fefefe;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+      }
+  
+      .progress-bar {
+        width: 100%;
+        height: 18px;
+        background-color: #dbdbdb;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 5px rgba(44, 44, 44, 0.2);
+      }
+  
+      .progress {
+          height: 100%;
+          background-color: rgb(125, 125, 125);
+          color: #fff;
+          border-radius: 15px;
+        }
+  
+        
+      .progress-label {
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+    /* ---------------------- BAG.8 ---------------------- */
+    .bagian8{
+        margin-top: 110px;
+        margin-left: 45px;
+        text-align: justify;
+      }
+
+      .bagian8 h1{
+        font-size: 27px;
+      }
+
+    /* ---------------------- BAG.9 ---------------------- */
+    .bagian9{
+        margin-right: 60px;
+        margin-bottom: 110px;
+        margin-top: 55px;
+      }
+
+      /* ---------- KOTAK SARAN ---------- */
+
+      .kotak_saran {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(70, 70, 70, 0.3);
+        transform: translate3d(0, 0, 0);
+      }
+    
+    
+      .kotak_tulisan {
+        margin-bottom: 15px;
+        margin-right: 20px;
+      }
+    
+      .kotak_tulisan label {
+        display: block;
+        margin-bottom: 5px;
+      }
+    
+      .kotak_tulisan input[type="text"],
+      .kotak_tulisan input[type="email"],
+      .kotak_tulisan textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+      }
+    
+      .kotak_tulisan textarea {
+        height: 100px;
+      }
+    
+      .kotak_tulisan input[type="submit"] {
+        background-color: #5d5d5d;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+      .kotak_tulisan input[type="submit"]:hover {
+        background-color: #434343;
+      }
+    /* ---------------------- BAG.10 ---------------------- */
+    .bagian10{
+        margin-top: 70px;
+      }
+
+      .bagian10 h1{
+        font-size: 30px;
+    }
+    
+    .kontak_kami img{
+        width: 40px;
+
+    }
+
+/* -------------------------------- FOOTER -------------------------------- */
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* --------------------------------REPONSIVE------------------------------- */
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+/* Add this CSS for responsive styling */
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  header {
+    position: relative;
+    padding-right: 60px; /* Add some space for the menu button */
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Ensure the menu is above other elements */
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  .menu-icon i {
+    font-size: 24px; /* Adjust the font size of the menu icon */
+  }
+}
